@@ -1,0 +1,115 @@
+// -----------------------------------------footer form
+
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #7D8183;
+  display: flex;
+  align-items: center;
+
+  &__main {
+    width: 100%;
+    height: 10rem;
+    // background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__nav {
+    width: 100%;
+    height: 10rem;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 3rem;
+
+    @media only screen and (max-width: 480px) {
+      margin: 1rem;
+    }
+  }
+
+  &__text {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    @media only screen and (max-width: 1200px) {
+      font-size: 1.12rem;
+    }
+  }
+}
+.social {
+ 
+
+  &__list {
+    list-style: none;
+      // margin: 3rem;
+    padding-top: 1rem;
+    // background-color: green;
+    display: flex;
+    flex-direction: column;
+    // position: absolute;
+    // bottom: -3rem;
+    //   left: 25rem;
+      flex-direction: row;
+
+    //   @media only screen and (max-width: 1024px) {
+    //     bottom: -2rem;
+    //     left: 17.5rem;
+    //     flex-direction: row;
+    //   }
+
+    //   @media only screen and (max-width: 768px) {
+    //     bottom: -2rem;
+    //     left: 12.5rem;
+    //     flex-direction: row;
+    //   }
+
+
+    // @media only screen and (max-width: 480px) {
+    //   bottom: -2rem;
+    //   left: 10rem;
+    //   flex-direction: row;
+    // }
+  }
+
+  &__text {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 0.5rem;
+ 
+    @media only screen and (max-width: 1200px) {
+      font-size: 1.75rem;
+    }
+  }
+
+  &__text:hover {
+    color: #3985ff;
+  }
+}
+.copy-right {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  // background-color: purple;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+
+.copy-right h2 {
+  font-size: 1.7rem;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 1.2rem;
+  }
+}
+

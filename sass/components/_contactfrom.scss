@@ -1,0 +1,139 @@
+// --------------------------------------------contact form
+
+.content--fifth {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.contact {
+  width: 100%;
+  height: auto;
+  // background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+
+  @media only screen and (max-width: 1125px) {
+    flex-direction: column;
+  }
+
+  &__wrap {
+    width: auto;
+    height: 60rem;
+    // background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__row {
+    display: block;
+    // width: 50%;
+    height: 7rem;
+    // background-color: yellow;
+    margin: 1.5rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 480px) {
+      justify-content: start;
+    }
+  }
+
+  &__row:last-child {
+    margin-top: 10rem;
+  }
+}
+
+.col1 {
+  font-size: 2.4rem;
+  display: block;
+  width: 40rem;
+  // background-color:whitesmoke;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 2.1rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.span {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.span-1,
+.span-2,
+.span-3,
+.span-5 {
+  width: 100%;
+  height: 5rem;
+  font-size: 2.1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 1.7rem;
+    height: 3.5rem;
+  }
+}
+.span-4 {
+  float: left;
+  font-size: 2.1rem;
+  margin-left: 10px;
+  width: 100%;
+  @media only screen and (max-width: 1024px) {
+    font-size: 1.7rem;
+    width: 70%;
+  }
+}
+.span-5 {
+  height: 10rem;
+}
+
+.span-1::placeholder,
+.span-2::placeholder,
+.span-3::placeholder,
+.span-4::placeholder,
+.span-5::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.1rem;
+}
+.span-6 {
+  position: absolute;
+  bottom: 0;
+}
+
+#submit {
+  border: 1px solid #3985ff;
+  font-size: 1.5rem;
+}
+
+#spandrop {
+  margin-top: 11rem;
+}
+
+.span-1:focus, input:focus,
+.span-5:focus, input:focus{
+  outline: none;
+}
+.drop-wrap {
+  height: 60rem;
+  @media only screen and (max-width: 1125px) {
+    height: auto;
+  }
+}
+.drop{
+  margin: 5rem 10rem 1rem 1rem;
+}

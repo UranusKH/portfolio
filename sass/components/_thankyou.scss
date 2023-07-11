@@ -1,0 +1,36 @@
+.thankyou {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gobackbtn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.msg {
+  display: block;
+  height: 12rem;
+  font-size: 7.5rem;
+  color: #3f3fd8;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  @media only screen and (max-width: 1025px) {
+    font-size: 6rem;
+  }
+}
+
+.thankyoubtn {
+  @media only screen and (max-width: 765px) {
+    font-size: 2.1rem;
+  }
+}
